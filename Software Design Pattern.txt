@@ -1,0 +1,30 @@
+System Design Patern
+Software Architecute.
+
+
+Python/Django
+
+1. Monolithic Architecture (Small Project/Small Companies)
+		Single Point failure
+2. Micro- Service Architecture (MAANG)
+   Min 10 LPA
+
+
+	2.1 In microservice architecture logic are divided into serprate file
+			2.1.1  Order Service
+			2.1.2  Payment Service
+			2.1.3  Authentication(Login/Regisration) Serice  Failed
+
+There is no issue of single point of failure (SPOF)) in MicroArchiture
+
+The services can communicate with each other.
+
+How may ways the services can commincate with each other?
+3.1  API  (DRF)
+3.2  Sockets (Real Time)
+
+
+https://www.pluralsight.com/guides/develop-a-microservice-api-with-django-rest-framework-(drf)
+
+
+
